@@ -1,0 +1,48 @@
+[[main]]
+    name = "Counseling Services"
+    url = "/counseling-services/"
+    weight = 30
+[[main]]
+    parent = "Counseling Services"
+    name = "Couples"
+    url = "/counseling-services/couples"
+    weight = 31
+[[main]]
+    parent = "Counseling Services"
+    name = "Individuals"
+    url = "/counseling-services/individuals"
+    weight = 32
+
+[[main]]
+    name = "Cranial Sacral Therapy"
+    url = "/cranial-sacral-therapy/"
+    weight = 41
+
+[[main]]
+    name = "Pilates"
+    url = "/pilates/"
+    weight = 50
+
+[[main]]
+    parent = "Pilates"
+    name = "Workshops"
+    url = "/pilates/workshops"
+    weight = 51
+[[main]]
+    parent = "Pilates"
+    name = "Privates"
+    url = "/pilates/privates"
+    weight = 52
+[[main]]
+    parent = "Pilates"
+    name = "Mentoring Groups"
+    url = "/pilates/mentoring"
+    weight = 53
+[[main]]
+    name = "About"
+    url = "/about/"
+    weight = 70
+[[main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 80
