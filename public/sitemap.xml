@@ -4,7 +4,13 @@
   <url>
     <loc>https://example.org/</loc>
   </url><url>
+    <loc>https://example.org/about/</loc>
+  </url><url>
     <loc>https://example.org/categories/</loc>
+  </url><url>
+    <loc>https://example.org/tags/content/</loc>
+  </url><url>
+    <loc>https://example.org/tags/examples/</loc>
   </url><url>
     <loc>https://example.org/tags/</loc>
   </url>
