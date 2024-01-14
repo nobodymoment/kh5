@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on My New Hugo Site</title>
+    <title>Home on Kim Haroche</title>
     <link>https://example.org/</link>
-    <description>Recent content in Home on My New Hugo Site</description>
+    <description>Recent content in Home on Kim Haroche</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <copyright>© Untitled. All rights reserved</copyright>
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
@@ -13,6 +14,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.org/about/</guid>
       <description>Who I Am I am a registered psychotherapist, counselor, and skilled practitioner trained in:&#xA;Trauma resolution Nervous system regulation Mindfulness meditation Attachment issues Grief counseling Sensorimotor Psychotherapy Biodynamic Cranial Sacral Therapy Embryology (including working with babies and new mothers) Master Pilates Teacher, second generation. I have had the wonderfully enriching experiences of being a Teaching Assistant at the Colorado School of Energy Studies, and at the Sensorimotor Psychotherapy Institute, a Meditation instructor in international month-long silent meditation retreats, and a Trainer and Presenter of the Pilates Center Certification and Master’s Program.</description>
+    </item>
+    <item>
+      <title>Cranial Sacral Therapy</title>
+      <link>https://example.org/cranio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/cranio/</guid>
+      <description>For People “There are inherent, intelligent and unexplained forces that create and maintain the human body.” These forces, also known as the embryological formative forces, appear during conception and continue to shape us today. My job, through Biodynamic Cranial Sacral Therapy (BCST), is to listen to these forces with openness and presence; thereby allowing these dynamic forces to naturally come forth and reorganize your system to a new level of health.</description>
     </item>
     <item>
       <title>Contact</title>

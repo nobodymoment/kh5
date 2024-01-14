@@ -21,3 +21,41 @@
 .circular + blockquote {
     margin-left: -10px; /* Adds margin to a blockquote that directly follows an image */
 }
+
+.index-banner {
+    width: 100%; /* Makes the container span the full width of the screen */
+    height: 225px; /* Fixed height of the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hides parts of the image that overflow the container */
+    position: relative; /* Needed for absolute positioning of the quote */
+}
+
+.index-banner img {
+    width: 100%; /* Image spans the full width of its container */
+    height: auto; /* Allows the image height to adjust */
+    object-fit: cover; /* Ensures the image covers the container, may crop the image */
+}
+
+
+.banner-quote {
+    position: absolute;  /* Positions the quote over the image */
+    top: 50%;           /* Centers vertically */
+    left: 50%;          /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Aligns center of quote with center of container */
+    color: black;       /* Sets the text color */
+    text-align: center; /* Centers the text inside the quote box */
+    width: auto;         /* Adjust the width as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust color and opacity as needed */
+    padding: 10px; /* Add some padding around the text */
+    border-radius: 8px; /* Optional: rounds the corners */
+    line-height: 1.4; /* Adjust as needed */
+    letter-spacing: 1px;
+
+    /* Additional styling as needed (e.g., font size, font family) */
+}

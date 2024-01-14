@@ -1,0 +1,47 @@
+<div id="header">
+    {{ if .Site.IsMultiLingual }}
+        {{- partial "languages.html" . }}
+    {{- end -}}
+    <h1><a href="{{ .Site.BaseURL }}" id="logo">
+        {{- if .Site.Data.globalheader.image }}
+            <img src="{{ .Site.Data.globalheader.image | relURL }}" alt="{{ .Site.Data.globalheader.image_alt }}" />
+        {{- end }}
+        {{ with .Site.Data.globalheader.title }}{{ . | markdownify }}{{ else }}{{ .Site.Title }}{{ end }}
+    </a></h1>
+
+    <nav id="nav">
+        <ul>
+            {{- range .Site.Menus.main }}
+                <li class="{{ if or ($.Page.IsMenuCurrent "main" .) ($.Page.HasMenuCurrent "main" .) }}current{{ end }}">
+                    <a href="{{ .URL | default "#" }}">{{ .Name }}</a>
+                    {{- if .HasChildren -}}
+                    <ul>
+                        {{- range .Children }}
+                        <li class="{{ if or ($.Page.IsMenuCurrent "main" .) ($.Page.HasMenuCurrent "main" .) }}current{{ end }}">
+                            <a href="{{ .URL | default "#" }}">{{ .Name }}</a>
+                            {{- if .HasChildren -}}
+                            <ul>
+                                {{- range .Children }}
+                                <li class="{{ if or ($.Page.IsMenuCurrent "main" .) ($.Page.HasMenuCurrent "main" .) }}current{{ end }}">
+                                    {{/* aoeu fix 'current' thing */}}
+                                    <a href="{{ .URL | default "#" }}">{{ .Name }}</a>
+                                {{- end }}
+                            </ul>
+                            {{- end -}}
+                        {{- end }}
+                    </ul>
+                    {{- end -}}
+            {{- end }}
+        </ul>
+    </nav>
+    {{ if eq .Type "cranio-index-banner" }}
+    <div class="index-banner">
+        <img src="cranioindexbanner.png/" alt="Banner Description">
+        <div class="banner-quote">
+            <p>“Any one can find the disease, the call of the true doctor is to find the health.”</p>
+            <p>— Andrew Taylor Still, DO</p>
+        </div>
+    </div>
+    {{ end }}
+
+</div>
