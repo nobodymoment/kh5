@@ -1,0 +1,19 @@
+/* This file intentionally left blank.
+ * Put your custom CSS into your (not the theme's) assets/sass/custom.scss
+ */
+
+ .circular {
+/*     width: 220px;      /* Width of the container */
+/*     height: 220px;     /* Height of the container, should be the same as width */
+    overflow: hidden;  /* Ensures nothing spills outside the container */
+    border-radius: 50%; /* Rounds the container's corners */
+    display: flex;     /* Utilizing flexbox for centering */
+    justify-content: center;
+    align-items: center;
+}
+
+.circular img {
+    width: auto;       /* Maintains the aspect ratio */
+    height: 100%;      /* Fills the container height */
+    object-fit: cover; /* Covers the container, useful for non-square images */
+}

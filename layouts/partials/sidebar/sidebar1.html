@@ -1,0 +1,10 @@
+<section>
+    <div class="image-circular">
+         <!-- Replace 'path-to-your-image.jpg' with the actual path to your image --> 
+         {{ if .Params.image }}
+        <img src="{{ .Params.image }}" alt="Description">
+        {{ end }}
+    </div>
+    <h3>Test</h3>
+    <p>Text</p>
+</section>
