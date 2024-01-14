@@ -43,5 +43,14 @@
         </div>
     </div>
     {{ end }}
-
+    {{ if eq .Type "pilates-index-banner" }}
+    <div class="index-banner">
+        <img src="/pilatesindexbanner.png/" alt="Banner Description">
+    </div>
+    {{ end }}
+    {{ if eq .Type "counseling-index-banner" }}
+    <div class="index-banner">
+        <img src="/counselingindexbanner.png/" alt="Banner Description">
+    </div>
+    {{ end }}
 </div>

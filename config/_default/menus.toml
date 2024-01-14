@@ -47,7 +47,7 @@
 [[main]]
     parent = "Pilates"
     name = "Workshops"
-    url = "/pilates/workshops"
+    url = "/workshops"
     weight = 51
 [[main]]
     parent = "Pilates"
@@ -57,7 +57,7 @@
 [[main]]
     parent = "Pilates"
     name = "Privates"
-    url = "/pilates/#privates"
+    url = "/pilates/#private-lessons"
     weight = 53
 [[main]]
     name = "Contact"
