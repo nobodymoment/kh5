@@ -32,7 +32,7 @@
     name = "People"
     url = "/cranio/#for-people"
     weight = 42
-    
+
 [[main]]
     parent = "Cranial Sacral Therapy"
     name = "Animals"
@@ -52,12 +52,12 @@
 [[main]]
     parent = "Pilates"
     name = "Mentoring Groups"
-    url = "/pilates/mentoring"
+    url = "/pilates/#mentoring-groups"
     weight = 52
 [[main]]
     parent = "Pilates"
     name = "Privates"
-    url = "/pilates/privates"
+    url = "/pilates/#privates"
     weight = 53
 [[main]]
     name = "Contact"
