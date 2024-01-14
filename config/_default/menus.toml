@@ -26,15 +26,17 @@
     name = "Cranial Sacral Therapy"
     url = "/cranio/"
     weight = 41
+
 [[main]]
     parent = "Cranial Sacral Therapy"
     name = "People"
-    url = "/cranio#people/"
+    url = "/cranio/#for-people"
     weight = 42
+    
 [[main]]
     parent = "Cranial Sacral Therapy"
     name = "Animals"
-    url = "/cranial-sacral-therapy#animals"
+    url = "/cranio/#for-animals"
     weight = 43
 
 [[main]]
