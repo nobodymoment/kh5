@@ -2,60 +2,65 @@
     name = "About"
     url = "/about/"
     weight = 25
+    identifier = "about"
 [[main]]
     name = "Counseling Services"
     url = "/counseling-services/"
     weight = 30
+    identifier = "counseling"
 [[main]]
-    parent = "Counseling Services"
+    parent = "counseling"
     name = "Couples"
     url = "/counseling-services/couples"
-    weight = 31
+    weight = 30
+    identifier = "counseling_couples"
 [[main]]
-    parent = "Counseling Services"
+    parent = "counseling"
     name = "Individuals"
     url = "/counseling-services/individuals"
     weight = 32
+    identifier = "counseling_individuals"
 [[main]]
-    parent = "Counseling Services"
+    parent = "counseling"
     name = "Trauma"
-    url = "/counseling-services/trauma"
+    url = "/counseling-services/individuals/#trauma"
     weight = 33
-
+    identifier = "counseling_trauma"
 [[main]]
-    name = "Cranial Sacral Therapy"
+    name = "Cranio"
     url = "/cranio/"
     weight = 41
-
+    identifier = "cranio"
 [[main]]
-    parent = "Cranial Sacral Therapy"
+    parent = "cranio"
     name = "People"
     url = "/cranio/#for-people"
     weight = 42
-
+    identifier = "cranio_people"
 [[main]]
-    parent = "Cranial Sacral Therapy"
+    parent = "cranio"
     name = "Animals"
     url = "/cranio/#for-animals"
     weight = 43
-
+    identifier = "cranio_animals"
 [[main]]
     name = "Pilates"
     url = "/pilates/"
     weight = 50
-
+    identifier = "pilates"
 [[main]]
-    parent = "Pilates"
+    parent = "pilates"
     name = "Workshops"
-    url = "/workshops"
+    url = "/pilates/workshops/"
     weight = 51
+    identifier = "workshops"
 [[main]]
-    parent = "Pilates"
+    parent = "pilates"
     name = "Mentoring Groups"
     url = "/pilates/#mentoring-groups"
     weight = 52
 [[main]]
-    parent = "Pilates"
+    parent = "pilates"
     name = "Privates"
     url = "/pilates/#private-lessons"
     weight = 53
@@ -63,3 +68,4 @@
     name = "Contact"
     url = "/contact/"
     weight = 80
+    identifier = "contact"

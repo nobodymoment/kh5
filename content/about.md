@@ -1,7 +1,6 @@
 ---
 title: "About"
 description: ""
-menu: main
 weight: 25
 sidebar_left: aboutsidebar
 ---

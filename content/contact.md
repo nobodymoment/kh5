@@ -1,7 +1,6 @@
 ---
 title: "Contact"
 description: "Contact Info"
-menu: main
 weight: 80
 sidebar_left: contactsidebar
 sidebar_right: sidebarnothing

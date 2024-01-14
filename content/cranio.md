@@ -1,6 +1,5 @@
 ---
 title: "Cranial Sacral Therapy"
-menu: main
 type: cranio-index-banner
 url: cranio
 weight: 41

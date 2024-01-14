@@ -1,13 +1,14 @@
 ---
-title: "Couples"
-description: "Couples counseling description"
-url: counseling-services/couples
-weight: 31
-image: images/banner.jpg
-image_alt: "Hello!"
-sidebar_left: couplessidebar
+title: Counseling Services
+type: counseling-index-banner
+url: counseling-services
+weight: 30
+sidebar_left: counselingsidebarleft
+sidebar_right: counselingsidebarright
+description: "My approach to Counseling Therapy is individualized based on the unique needs, disposition, and therapeutic goals of each client allowing for insights, transformations and a greater capacity to feel at home within yourself and alive and vibrant in your life.
+I am a registered psychotherapist working with committed couples and individuals."
 ---
-LEFT SIDEBAR Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
 Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
 Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
 consequat etiam lorem ipsum dolor sit amet nullam.

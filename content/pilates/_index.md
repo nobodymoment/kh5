@@ -1,12 +1,11 @@
 ---
 title: Pilates
-menu: main
 type: pilates-index-banner
 url: pilates
 weight: 50
 sidebar_left: pilatessidebarleft
 sidebar_right: pilatessidebarright
-description:  ""
+description: ""
 ---
 ### Workshops
 
