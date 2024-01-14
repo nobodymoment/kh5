@@ -17,3 +17,7 @@
     height: 100%;      /* Fills the container height */
     object-fit: cover; /* Covers the container, useful for non-square images */
 }
+
+.circular + blockquote {
+    margin-left: -10px; /* Adds margin to a blockquote that directly follows an image */
+}

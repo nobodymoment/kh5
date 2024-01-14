@@ -14,5 +14,12 @@
       <guid>https://example.org/about/</guid>
       <description>Who I Am I am a registered psychotherapist, counselor, and skilled practitioner trained in:&#xA;Trauma resolution Nervous system regulation Mindfulness meditation Attachment issues Grief counseling Sensorimotor Psychotherapy Biodynamic Cranial Sacral Therapy Embryology (including working with babies and new mothers) Master Pilates Teacher, second generation. I have had the wonderfully enriching experiences of being a Teaching Assistant at the Colorado School of Energy Studies, and at the Sensorimotor Psychotherapy Institute, a Meditation instructor in international month-long silent meditation retreats, and a Trainer and Presenter of the Pilates Center Certification and Master’s Program.</description>
     </item>
+    <item>
+      <title>Contact</title>
+      <link>https://example.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/contact/</guid>
+      <description>Email: kimharoche@gmail.com&#xA;Mobile: +1.720.352.6669&#xA;WhatsApp: +1.720.352.6669&#xA;In-Person Sessions:&#xA;My office is located on 23rd and Pearl St in Boulder, CO.&#xA;Zoom Sessions:&#xA;A link will be sent once an appointment has been confirmed.</description>
+    </item>
   </channel>
 </rss>
