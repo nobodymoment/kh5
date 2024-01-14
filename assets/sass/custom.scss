@@ -59,3 +59,35 @@
 
     /* Additional styling as needed (e.g., font size, font family) */
 }
+
+.image.right {
+    float: right;
+    margin-left: 20px; /* Adjust as needed */
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+/* Optional: if you want to right align the text inside the blockquote */
+.right-aligned blockquote {
+    text-align: right;
+}
+
+.right-aligned cite {
+    text-align: right;
+}
+
+.image.left {
+    float: left;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+/* Optional: if you want to left align the text inside the blockquote */
+.left-aligned blockquote {
+    text-align: left;
+}

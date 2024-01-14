@@ -23,11 +23,11 @@
 [[main]]
     parent = "counseling"
     name = "Trauma"
-    url = "/counseling-services/individuals/#trauma"
+    url = "/counseling-services/individuals/#trauma-therapy"
     weight = 33
     identifier = "counseling_trauma"
 [[main]]
-    name = "Cranio"
+    name = "Cranial Sacral Therapy"
     url = "/cranio/"
     weight = 41
     identifier = "cranio"

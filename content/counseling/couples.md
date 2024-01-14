@@ -1,30 +1,29 @@
 ---
 title: "Couples"
-description: "Couples counseling description"
+description: ""
 url: counseling-services/couples
 weight: 31
-image: images/banner.jpg
-image_alt: "Hello!"
 sidebar_left: couplessidebar
 ---
-LEFT SIDEBAR Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-consequat etiam lorem ipsum dolor sit amet nullam.
+### Couples counseling
 
-### And Yet Another Subheading
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.
+The method I use when working with couples and find to be brilliant, exciting and engaging is called PACT: A Psychobiological Approach to Couple Therapy®.  The method, created by my teacher, Dr. Stan Tatkin, combines neuroscience, attachment theory, and the biology of human arousal “meaning the moment-to-moment ability to manage one’s energy, alertness, and readiness to engage”—namely the autonomic nervous system.  
 
-Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
-quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
-Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
-Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.
+Through this combination of modalities, you will come to understand and view your partner and yourself differently. You will become aware of how and when you unintentionally trigger each other, and why it is important to understand how to calm your partner into feeling safe and secure, which is the basis for any long, lasting secure functioning relationship.
+
+Creating a secure functioning relationship is the main goal of the therapy. What form the relationship takes, what each couple needs, or how they choose to partner, is very unique to the individuals.
+ 
+When in partnership, we can unintentionally re-create old wounds and patterns or we can step out of that hypnosis and choose to create a secure functioning relationship, which can actually repair and heal the wounds from the past.
+
+The work is exciting, interactive, dynamic and highly effective.
+
+I will focus on moment-to-moment shifts in your face, body, and voice, and ask you to pay close attention to these as a couple so that you learn to do this outside of therapy. Learning to read one’s partner through many lenses is fun and revealing.
+
+Together we will create experiences similar to those troubling your relationship and help you work through them in real time during the session. Knowing the neurobiological impediments with memory, we will not rely on whose storyline is accurate, but rather recreate a similar enough experience and learn to work with it differently.
+
+PACT differs from traditional models of couples therapy in that PACT sessions are longer (3 hour initial session and 2–1.5 hours thereafter).  This form of therapy generally takes less time than traditional couples therapy. 
+
+Couple therapy is appropriate at all stages of a relationship—not just when you are having troubles. It can be used to better understand each other and head off problems, to decide whether marriage or living together is the right move at this time, to bring insight, understanding and healing to a time of crisis or general disconnect and unhappiness, or to decide whether or not to stay together.
+ 
+I meet each couple with openness and care. Even if the relationship is no longer viable, as is the case when one or both people definitively want out, it is possible to end the relationship with care and love.
+

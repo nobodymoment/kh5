@@ -5,27 +5,18 @@ url: counseling-services
 weight: 30
 sidebar_left: counselingsidebarleft
 sidebar_right: counselingsidebarright
-description: "My approach to Counseling Therapy is individualized based on the unique needs, disposition, and therapeutic goals of each client allowing for insights, transformations and a greater capacity to feel at home within yourself and alive and vibrant in your life.
-I am a registered psychotherapist working with committed couples and individuals."
+description: ""
 ---
-Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-consequat etiam lorem ipsum dolor sit amet nullam.
+### Couples Counseling
 
-### And Yet Another Subheading
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.
+Couple therapy is appropriate at all stages of a relationship—not just when you are having troubles. It can be used to better understand each other and head off problems, to decide whether marriage or living together is the right move at this time, to bring insight, understanding and healing to a time of crisis or general disconnect and unhappiness, or to decide whether or not to stay together. [**Read more . . .**](couples/)
 
-Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
-quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
-Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
-Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.
+### Individual Counseling
+
+My approach to counseling is individualized based on the unique needs, disposition, and therapeutic goals of each client allowing for insights, transformations and a greater capacity to feel at home within yourself and more present and alive in your life.
+
+I work with trauma, anxiety, grief and loss, depression, attachment issues, developmental wounding, and life transitions. Having trained in Sensorimotor Psychotherapy, I adhere to those principles of organicity, wholeness, non-violence, mindfulness, and relational resonance and alchemy. Together we will develop the skills to stop and mindfully listen to your body, emotions, and thoughts. [**Read more . . .**](individuals/#individual-counseling)
+
+### Trauma Therapy
+
+I work with everyday traumas such as car accidents, falls, surgeries, long term Covid symptoms, sporting accidents to severe or complex traumas including rapes, incest, cancer treatments, fires, war survivors, and other horrific events. I will not dive into your trauma and create more dis-regulation in your system, but rather explore ways to stabilize your experience with present day resources, some somatic exercises to help regulate your nervous system, and help you to become more present. We will gently work through the body to recapture the safety which is inherently yours, but has been obscured due to the traumatic event. [**Read more . . .**](individuals/#trauma-therapy)
