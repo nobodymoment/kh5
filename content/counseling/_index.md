@@ -1,7 +1,9 @@
 ---
 title: Counseling Services
+name: "Counseling Services"
 type: counseling-index-banner
-url: counseling-services
+identifier: counseling
+url: /counseling-services/
 weight: 30
 sidebar_left: counselingsidebarleft
 sidebar_right: counselingsidebarright

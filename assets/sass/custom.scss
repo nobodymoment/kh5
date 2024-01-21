@@ -91,3 +91,194 @@
 .left-aligned blockquote {
     text-align: left;
 }
+// Navigation text color
+.nav-bar {
+    a, .menu-link {
+      color: #608284; // Blue-ish color for navigation text
+    }
+  
+    // Add a green line under the active navigation item
+    .active {
+      border-bottom: 2px solid #879e69; // Green color for the line
+    }
+  }
+  // Body text color
+body {
+    color: #9a9999; // Body type color
+  }
+  
+  // Subhead text color
+  h1, h2, h3, h4, h5, h6 {
+    color: #474747; // Subhead type color
+  }
+.nav-bar {
+    background-color: #FFFFFF; // White background
+}
+.icon.major {
+    text-align: center;      /* Keeps text-align as center */
+    cursor: default;         /* Keeps cursor as default */
+    background-color: transparent; /* Resets or changes the background color */
+    background-image: none;  /* Removes the background image */
+    color: initial;          /* Resets the color to default */
+    border-radius: initial;  /* Resets the border-radius */
+    display: inline-block;   /* Keeps display as inline-block */
+    width: auto;             /* Changes width */
+    height: auto;            /* Changes height */
+    line-height: normal;     /* Resets line-height */
+    box-shadow: none;        /* Removes box-shadow */
+    margin: 0;               /* Resets margin */
+}
+body {
+    background: _palette(bg) }
+
+thead {
+    background-color: #7d7f7a;
+    color: #fff;
+}
+#header {
+    background-color: #fff; /* Sets the background color */
+    background-image: none; /* Removes the background image */
+}
+#nav {
+    background-color: rgb(255, 255, 255); /* Sets the background color */
+    background-image: none; /* Removes the background image */
+}
+#nav > ul > li > a {
+    color: rgb(96, 130, 132); /* Replace with the color you want */
+}
+#nav > ul > li:hover > a {
+    color: rgb(76, 110, 112); /* Text color change on hover */
+}
+
+#nav > ul > li:current > a {
+    color: rgb(96, 130, 132); /* Text color for the currently selected link */
+}
+
+#nav > ul > li.current a {
+    color: rgb(96, 130, 132); /* Text color for the currently selected link */
+}
+
+#nav > ul > li:active > a {
+    color: rgb(96, 130, 132); /* Color change on active */
+}
+.box.post .image {
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+// input[type="submit"].alt,
+// input[type="reset"].alt,
+// input[type="button"].alt,
+// button.alt,
+// .button.alt {
+//     background-color: #555555;
+//     color: #fff;
+// }
+
+// input[type="submit"].alt:hover,
+// input[type="reset"].alt:hover,
+// input[type="button"].alt:hover,
+// button.alt:hover,
+// .button.alt:hover {
+//     background-color: lighten(#555555, 5);
+// }
+
+// input[type="submit"].alt:active,
+// input[type="reset"].alt:active,
+// input[type="button"].alt:active,
+// button.alt:active,
+// .button.alt:active {
+//     background-color: darken(#555555, 5);
+// }
+@include breakpoint('<=narrower') {
+    .box.post .image {
+        display: block; /* Makes the image a block element */
+        margin: 0 auto; /* Centers the image horizontally */
+    }
+    
+//     #titleBar {
+//         background-color: #333; /* Background color for titleBar on narrow screens */
+//         .title {
+//             color: #fff; /* Text color for .title on narrow screens */
+//         }
+        
+//         // .toggle {
+//         //     background-color: #fff; /* Background color for .toggle on narrow screens */
+//         // }
+//     }
+    #navPanel {
+        background-color: #1f1f1f; /* Background color for navPanel on narrow screens */
+        .link {
+            color: #888; /* Text color for .link on narrow screens */
+        &.depth-0 {
+            color: #fff;
+            }
+         }
+    }
+}
+@include breakpoint('<=mobilep') {
+    .box.post .image {
+        display: block; /* Makes the image a block element */
+        margin: 0 auto; /* Centers the image horizontally */
+    }
+}
+
+// .dropotron {
+//     background-color: #333; /* Background color for .dropotron */
+//     color: #fff; /* Text color for .dropotron */
+
+//     > li {
+//         > a {
+//             color: #c0c0c0; /* Text color for .dropotron > a */
+//             text-decoration: none;
+//             border: 0;
+//         }
+
+//         &.active,
+//         &:hover {
+//             > a {
+//                 color: #fff; /* Text color for .dropotron > a on hover */
+//             }
+//         }
+//     }
+// }
+
+/* Override Footer Styles */
+#footer {
+    background-color: #000; /* Set the background color to black */
+    padding: 4em 0 8em 0;
+
+    a {
+        color: _palette(fg-light); /* Change link text color to a lighter shade */
+        border-bottom-color: transparentize(_palette(fg), 0.75);
+
+        &:hover {
+            color: _palette(accent, bg); /* Change link color on hover */
+            border-bottom-color: transparent;
+        }
+    }
+
+    .container {
+        margin-bottom: 4em;
+    }
+
+    .icons {
+        text-align: center;
+        margin: 0;
+
+        a {
+            color: _palette(fg); /* Change icon color to match text color */
+
+            &:hover {
+                color: _palette(accent, bg); /* Change icon color on hover */
+            }
+        }
+    }
+
+    .copyright {
+        color: _palette(fg); /* Change copyright text color to match text color */
+        margin-top: 1.5em;
+        text-align: center;
+        font-size: 0.9em;
+    }
+}
+

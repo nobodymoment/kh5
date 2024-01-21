@@ -1,8 +1,8 @@
-[[main]]
-    name = "About"
-    url = "/about/"
-    weight = 25
-    identifier = "about"
+#[[main]]
+#name = "About"
+#url = "/about/"
+#weight = 25
+#identifier = "about"
 [[main]]
     name = "Counseling Services"
     url = "/counseling-services/"
@@ -64,8 +64,8 @@
     name = "Privates"
     url = "/pilates/#private-lessons"
     weight = 53
-[[main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 80
-    identifier = "contact"
+#[[main]]
+#   name = "Contact"
+#    url = "/contact/"
+#    weight = 80
+#    identifier = "contact"

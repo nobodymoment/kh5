@@ -1,6 +1,7 @@
 ---
 title: "Couples"
 description: ""
+parent: counseling
 url: counseling-services/couples
 weight: 31
 sidebar_left: couplessidebar

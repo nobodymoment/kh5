@@ -3,6 +3,9 @@ title: "About"
 description: ""
 weight: 25
 sidebar_left: aboutsidebar
+url: /about/
+identifer: 'about'
+menu: main
 ---
 ### Who I Am
 

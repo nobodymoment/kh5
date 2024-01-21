@@ -4,6 +4,7 @@ description: "Contact Info"
 weight: 80
 sidebar_left: contactsidebar
 sidebar_right: sidebarnothing
+menu: main
 ---
 **Email:** [kimharoche@gmail.com](mailto:kimharoche@gmail.com)  
 **Mobile:** [+1.720.352.6669](tel:+1.720.352.6669)  

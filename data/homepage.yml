@@ -10,17 +10,17 @@ items:
     items_per_row: 3
     items:
     - title: Pilates
-      image: images/kim1.png
+      image: images/pilateshighlight.png
       content: >
         Trained under firm and loving hands of Pilates Master Kathy Grant, I am a Second generation Master Pilates Teacher. I offer Pilates for Pilates teachers and Pilates teachers-in-training privately and in groups. Based out of Boulder, I also guest teach at
         different studios and offer workshops internationally.
     - title: Counseling
-      image: images/kim1.png
+      image: images/counselinghighlight.png
       content: >
         My approach to Counseling Therapy is individualized based on the unique needs, disposition, and therapeutic goals of each client allowing for insights, transformations and a greater capacity to feel at home within yourself and
         alive and vibrant in your life. I am a registered psychotherapist working with committed couples and individuals.
     - title: Cranial Sacral Therapy
-      image: images/kim1.png
+      image: images/craniohighlight.png
       content: >
         Biodynamic Cranial Sacral Therapy benefits people and their animal friends. It can regulate the nervous system and aid in major life transitions. As a long-time practitioner I regularly witness results and relief in clients.
         I have seen Cranial Sacral Therapy reach and integrate areas in need of realignment - mentally, emotionally, and physically — in a way that other therapies cannot.
