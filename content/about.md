@@ -53,7 +53,7 @@ I work extensively with:
 
 I also help couples create secure functioning in their relationship whether you are beginning a new relationship, looking to deepen in, create more safety in, and better understand an already existing relationship, or end a relationship with kindness and love.
 
-In a session you can expect to be met where you are without any judgement, gain insights into your situation, learn how the body can befriend you or act against you by unwillingly drawing you into states not in accord with the present time, and how to work with that. I draw on:
+**In a session you can expect** to be met where you are without any judgement, gain insights into your situation, learn how the body can befriend you or act against you by unwillingly drawing you into states not in accord with the present time, and how to work with that. I draw on:
 - Sensorimotor Psychotherapy
 - PACT couples therapy
 - Biodynamic Cranial Sacral Therapy, and

@@ -2,6 +2,12 @@
  * Put your custom CSS into your (not the theme's) assets/sass/custom.scss
  */
 
+ $accent-color: #879e69;  // Example: Replace with your actual accent color variable or value
+
+blockquote, .custom-quote-cite-right, .custom-quote-cite-left, cite {
+    color: $accent-color;
+}
+
  .circular {
 /*     width: 220px;      /* Width of the container */
 /*     height: 220px;     /* Height of the container, should be the same as width */
@@ -21,6 +27,20 @@
 .circular + blockquote {
     margin-left: -10px; /* Adds margin to a blockquote that directly follows an image */
 }
+
+.non-circular {
+    overflow: hidden;  /* Ensures nothing spills outside the container */
+    display: flex;     /* Utilizing flexbox for centering */
+    justify-content: center;
+    align-items: center;
+}
+
+.non-circular img {
+    width: auto;       /* Maintains the aspect ratio */
+    height: 100%;      /* Fills the container height */
+    object-fit: cover; /* Covers the container, useful for non-square images */
+}
+
 
 .index-banner {
     width: 100%; /* Makes the container span the full width of the screen */
@@ -282,3 +302,45 @@ thead {
     }
 }
 
+blockquote {
+    /* Padding inside the blockquote */
+    padding: 0.5em 0 0 0; /* Top, Right, Bottom, Left */
+    font-style: italic;
+    font-weight: 600; /* Makes the text in blockquote bolder */    
+
+    /* Margin around the blockquote */
+    margin: 0.5em 0 0.25em 0; /* Top, Right, Bottom, Left */
+
+    /* Other properties you might want to adjust */
+    border-left: none; /* Removes the left border */
+    font-style: italic;
+}
+// cite.right-aligned {
+//     text-align: right !important;
+// }
+// section cite.right-aligned {
+//     text-align: right !important;
+// }
+
+section .custom-quote-cite.right-aligned {
+    text-align: right;
+    font-size: smaller;
+    font-style: normal;
+    color: $accent-color;
+}
+section .custom-quote-cite.left-aligned {
+    text-align: left;
+    font-size: smaller;
+    font-style: normal;
+    color: $accent-color;
+}
+
+.custom-color-section h3, .custom-color-section ul li a {
+    color: #608284; /* Color for links within the specific section */
+}
+
+.custom-color-section .image-caption {
+    text-align: center; /* Center align the text */
+    color: $accent-color; /* Replace with your accent color */
+    /* Add other styles as needed, like font-size, margin, etc. */
+}

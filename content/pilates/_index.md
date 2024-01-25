@@ -9,11 +9,11 @@ description: ""
 ---
 ### Workshops
 
-- [Stillness in Motion—Cranial Sacral for Pilates teachers](/workshops#stillness-in-motion)
-- [A New Approach to Pilates—Pilates and the Autonomic Nervous System](/workshops#a-new-approach-to-pilates)
-- [Kathy Grant’s Early Work](/workshops#kathy-grants-early-work)
-- [The Magic of Springs](/workshops#the-magic-of-springs)
-- [The Forgotten Exercises](/workshops#the-forgotten-exercises)
+- [Stillness in Motion—Cranial Sacral for Pilates teachers](/pilates/workshops#stillness-in-motion)
+- [A New Approach to Pilates—Pilates and the Autonomic Nervous System](/pilates/workshops#a-new-approach-to-pilatespilates-and-the-autonomic-nervous-system)
+- [Kathy Grant’s Early Work](/pilates/workshops#kathy-grants-early-work)
+- [The Magic of Springs](/pilates/workshops#the-magic-of-springs)
+- [The Forgotten Exercises](/pilates/workshops#the-forgotten-exercises)
 
 ### Mentoring Groups
 

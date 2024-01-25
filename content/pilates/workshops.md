@@ -16,7 +16,7 @@ You will learn the basic practitioner skills used in the biodynamic work to bett
 
 Through exploring the relationship to the field, which is a critical component in biodynamic cranial work, an ability to let go and surrender to “Pilates doing us” will become inherent in your movement.
 
-(6 hours)
+_(6 hours)_
 
 ### A New Approach to Pilates—Pilates and the Autonomic Nervous System
 
@@ -28,21 +28,15 @@ Through developing a basic understanding of the three branches of the autonomic 
 
 I will help you to understand the effects of car accidents on the nervous system and the subsequent boundary ruptures. Become aware of how and where you stand as you teach, and how you partner a client may be helping or impeding their progress after an accident. 
 
-(6 hours)
+_(6 hours)_
 
 ### Kathy Grant’s Early Work
 
-This is one of my favorite Pilates workshops to present as it is so much fun to dive into Kathy Grant’s Pilates work by sharing stories, knowledge and exercises passed onto to me during my time working for Kathy at Henri Bendel.  
+This is one of my favorite Pilates workshops to present as it is so much fun to dive into Kathy Grant’s Pilates work by sharing stories, knowledge and exercises passed onto to me during my time working for Kathy at Henri Bendel.
+
 Having studied with and assisted Kathy Grant during that early era, I experienced Kathy's work in a unique way.In this workshop I will present exercises based on my particular time with Kathy at the Bendel’s Gym, which was the ground work for her later body of work at NYU.   These will include the warm-ups from that era, Kathy Grant’s original order of exercises and warm ups for new clients, including variations on the reformer and some of the grueling, infamous rehab exercises. I’m happy to share how adaptable this work is and how the work relates to the nervous system, to rehabilitation, and to the classical Pilates method.
 
-(6 hours)
-
-[format the testimonials below in the column testimonial style, but indent the left and right margins]
-
-“Kim is such an inspiration. She truly teaches from the heart and it shows. She has amazing healing energy, she is very informative and very down to earth.” — B. P. Canmore, AB
-
-“Kim has a genuine respect for and knowledge of not only Kathy’s work, but for the bodies in front of her. “ — Kristin O.  Somerville,  MA
-
+_(6 hours)_
 
 ### The Magic of Springs
 
@@ -55,15 +49,9 @@ Too often we struggle against the equipment, the challenge of the exercise and o
 Through proper relationship with the springs, you will discover how to effortlessly bring forth the exercise, connect immediately into core, correct imbalances including scoliosis, and further reflect and support intrinsic health.
 This connection not only deepens our relationship to Pilates, but can have far reaching effects on our relationship with ourselves and our world. 
 
-(6 hours full version or 3 hours modified version)
+_(6 hours full version or 3 hours modified version)_
 
-[format the testimonials below in the column testimonial style, but indent the left and right margins]
-
-“I feel like I have a completely new idea of how to work with the equipment and how to approach teaching. I am very excited to use what I have learned.” — Vanessa W. Madison, WI
-
-“Wow! Wish I had learned this sooner.” — BR,  Alberta, Ca.
-
-### The Forgotten exercises
+### The Forgotten Exercises
 
 In this 3 hour workshop, I will share some of the “forgotten” or rarely taught exercises from the Bendel era of Kathy Grant’s career.
 
@@ -71,10 +59,4 @@ We will explore these exercises and try them on for size.  Kathy’s repertoire 
 
 Mostly, we will be tasting the genius behind this legendary teacher and master, and see how we can incorporate some of these exercises to help clients today.
 
-(3 Hours)
-
-[format the testimonials below in the column testimonial style, but indent the left and right margins]
-
-“Kim is wonderful, open and inspiring.” — Anonymous Boulder , CO
-
-“Kim exudes the spirit of Kathy Grant .” — Cindy H   Milwaukee
+_(3 hours)_
