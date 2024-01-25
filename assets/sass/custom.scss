@@ -365,3 +365,174 @@ section .custom-quote-cite.left-aligned {
     margin-inline-end: 0px;
     padding-inline-start: 20px; /* Adjusted padding */
 }
+
+/* Banner adjustments */
+#banner {
+    background-image: url('images/banner.jpg'); // Update with correct path
+    background-position: center bottom; // Adjusts to show more of the bottom of the image
+    background-size: cover;
+    height: 28em; // Adjust height as needed
+    text-align: center;
+    position: relative;
+
+    header, h2, .button {
+        display: none; // Hides header, h2, and buttons
+    }
+}
+
+
+// .box {
+//     &.highlight {
+//         position: relative;
+//         text-align: center; // Center align if needed
+
+//         // Targeting the image within the highlight box
+//         img {
+//             border-radius: 50%; // Maintain circular shape
+//             width: 100%;        // Responsive width
+//             max-width: 370px;   // Maximum size of the image
+//             height: auto;       // Maintain aspect ratio
+//             object-fit: cover;  // Ensures the image covers the area
+
+//             // Optional: Centering the image if not already centered
+//             display: block;
+//             margin: 0 auto;
+//         }
+//     }
+// }
+
+.box {
+    &.highlight {
+        position: relative;
+        text-align: center;
+
+        img {
+            border-radius: 50%;
+            width: 100%;
+            max-width: 370px;
+            height: auto;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 1em; // Add bottom margin to create space between image and text
+        }
+
+        h3, p {
+            // Adjust styles for text if needed
+        }
+    }
+}
+
+/* Default styles for .box.highlight (for smaller screens) */
+.box.highlight {
+    // Default styles (if any) for smaller screens
+    margin-top: 0; // No negative margin for smaller screens
+
+    img {
+        // Your existing styles for images
+    }
+}
+
+/* Apply negative margin only when viewport is wider than 840px */
+@media (min-width: 841px) {
+    .box.highlight {
+        margin-top: -33%; // Apply negative margin only for wider screens
+
+        // Retain other styles for the highlight images
+        img {
+            // Your existing styles for images
+        }
+    }
+}
+
+
+/* Adjustments for mobile and smaller screens */
+@media (max-width: 736px) {
+    .box.highlight {
+        margin-top: 0; // Remove negative margin on smaller screens
+
+        img {
+            max-width: 200px; // Adjust image size for smaller screens
+        }
+    }
+}
+
+/* Additional breakpoint if needed */
+@media (max-width: 480px) {
+    .box.highlight {
+        img {
+            max-width: 150px; // Further reduce image size for very small screens
+        }
+    }
+}
+
+
+
+
+
+// /* Overlap highlight images into the banner */
+// .box.highlight {
+//     margin-top: -33%; // Pull highlight images up into the banner area
+
+//     // Additional styles for the highlight images if needed
+//     img {
+//         // Your existing styles for images
+//     }
+// }
+
+// @include breakpoint('<=mobile') {
+//     .box.highlight {
+//         display: flex;         // Enable flex layout
+//         flex-direction: column; // Stack items vertically
+//         align-items: center;   // Center-align items
+
+//         img {
+//             width: 80%;       // Adjust the width of the image for mobile devices
+//             margin-bottom: 1em; // Add space below the image
+//         }
+
+//         h3, p {
+//             // Ensure text elements take full width and follow the image
+//             width: 100%;
+//             text-align: center; // Center-align text if desired
+//             // Additional styling for text elements as needed
+//         }
+//     }
+// }
+// // Breakpoint for max-width: 840px
+// @media (max-width: 840px) {
+//     .box.highlight {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+
+//         img {
+//             width: 80%;
+//             margin-bottom: 1em;
+//         }
+
+//         h3, p {
+//             width: 100%;
+//             text-align: center;
+//         }
+//     }
+// }
+
+// // Breakpoint for max-width: 736px
+// @media (max-width: 736px) {
+//     .box.highlight {
+//         // Styles can be the same or adjusted specifically for this breakpoint
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+
+//         img {
+//             width: 80%; // Adjust as needed
+//             margin-bottom: 1em;
+//         }
+
+//         h3, p {
+//             width: 100%;
+//             text-align: center;
+//         }
+//     }
+// }

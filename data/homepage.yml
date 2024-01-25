@@ -25,7 +25,7 @@ items:
         Trained under firm and loving hands of Pilates Master Kathy Grant, I am a Second generation Master Pilates Teacher. I offer Pilates for Pilates teachers and Pilates teachers-in-training privately and in groups. Based out of Boulder, I also guest teach at
         different studios and offer workshops internationally.
   - type: heading
-    heading: "a client description of some qualitative experience of your work..."
+    heading: "Kim is such an inspiration. She truly teaches from the heart and it shows. She has amazing healing energy, she is very informative and very down to earth."
     contents: ""
   #   #heading: Recent Posts
   #   content_type: posts
@@ -34,4 +34,4 @@ items:
     contents: 
     button:
       contents: Send message
-      url: "#"
+      url: "/contact/"
