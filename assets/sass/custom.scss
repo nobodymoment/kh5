@@ -8,11 +8,22 @@ $base-line-height: 1.8em; // Assuming this is your paragraph font size
 $base-font-weight: 400; // Assuming this is your paragraph font size
 
 
- $accent-color: #879e69;  // Example: Replace with your actual accent color variable or value
+$accent-color: #879e69;  // Example: Replace with your actual accent color variable or value
+$blueish-color: #608284; // Your blue-ish color
+
+h1 a {
+    color: $accent-color; // Set initial color to green accent color
+  
+    &:hover {
+      color: $blueish-color; // Change color to blue-ish on hover
+    }
+  }
+  
 
 blockquote, .custom-quote-cite-right, .custom-quote-cite-left, cite {
     color: $accent-color;
 }
+
 
  .circular {
 /*     width: 220px;      /* Width of the container */

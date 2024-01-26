@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://kimharoche.netlify.app/"
 languageCode = "en-us"
 title = "Kim Haroche"
 theme = "hugo-arcana"
