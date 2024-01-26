@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
+    <loc>/#/</loc>
   </url><url>
-    <loc>https://example.org/about/</loc>
+    <loc>/#/about/</loc>
   </url><url>
-    <loc>https://example.org/counseling-services/</loc>
+    <loc>/#/counseling-services/</loc>
   </url><url>
-    <loc>https://example.org/counseling-services/couples/</loc>
+    <loc>/#/counseling-services/couples/</loc>
   </url><url>
-    <loc>https://example.org/counseling-services/individuals/</loc>
+    <loc>/#/counseling-services/individuals/</loc>
   </url><url>
-    <loc>https://example.org/cranio/</loc>
+    <loc>/#/cranio/</loc>
   </url><url>
-    <loc>https://example.org/pilates/</loc>
+    <loc>/#/pilates/</loc>
   </url><url>
-    <loc>https://example.org/pilates/workshops/</loc>
+    <loc>/#/pilates/workshops/</loc>
   </url><url>
-    <loc>https://example.org/contact/</loc>
+    <loc>/#/contact/</loc>
   </url><url>
-    <loc>https://example.org/pilates-kim-haroche-therapist-pilates-instructor/</loc>
+    <loc>/#/pilates-kim-haroche-therapist-pilates-instructor/</loc>
   </url>
 </urlset>
