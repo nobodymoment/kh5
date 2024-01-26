@@ -2,10 +2,12 @@ baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "Kim Haroche"
 theme = "hugo-arcana"
-copyright = "© Kim Haroche. All rights reserved"
+copyright = "© Kim Haroche, Stillness in Movement LLC, 2024"
+
+defaultContentLanguage = "en"
 
 [taxonomies]
-    tag = "tags"
+    tag = "Pilates, Kim Haroche, Therapist, Pilates Instructor"
 
 [params]
     description = "Kim Haroche"

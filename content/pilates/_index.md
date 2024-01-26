@@ -1,6 +1,7 @@
 ---
 title: Pilates
 type: pilates-index-banner
+menu: main
 url: pilates
 weight: 50
 sidebar_left: pilatessidebarleft

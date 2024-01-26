@@ -2,6 +2,12 @@
  * Put your custom CSS into your (not the theme's) assets/sass/custom.scss
  */
 
+ // Base font size for paragraphs
+$base-font-size: 1.3em; // Assuming this is your paragraph font size
+$base-line-height: 1.8em; // Assuming this is your paragraph font size
+$base-font-weight: 400; // Assuming this is your paragraph font size
+
+
  $accent-color: #879e69;  // Example: Replace with your actual accent color variable or value
 
 blockquote, .custom-quote-cite-right, .custom-quote-cite-left, cite {
@@ -43,39 +49,48 @@ blockquote, .custom-quote-cite-right, .custom-quote-cite-left, cite {
 
 
 .index-banner {
-    width: 100%; /* Makes the container span the full width of the screen */
-    height: 225px; /* Fixed height of the container */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; /* Hides parts of the image that overflow the container */
-    position: relative; /* Needed for absolute positioning of the quote */
+    background-position: center bottom; // Adjusts to show more of the bottom of the image
+    background-size: cover;
+    height: auto; // Adjust height as needed
+    text-align: center;
+    position: relative;
+    // width: 100%; /* Makes the container span the full width of the screen */
+    // height: 225px; /* Fixed height of the container */
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // overflow: hidden; /* Hides parts of the image that overflow the container */
+    // position: relative; /* Needed for absolute positioning of the quote */
 }
 
 .index-banner img {
     width: 100%; /* Image spans the full width of its container */
     height: auto; /* Allows the image height to adjust */
     object-fit: cover; /* Ensures the image covers the container, may crop the image */
+    position: relative;
 }
 
 
 .banner-quote {
     position: absolute;  /* Positions the quote over the image */
     top: 50%;           /* Centers vertically */
-    left: 50%;          /* Centers horizontally */
-    transform: translate(-50%, -50%); /* Aligns center of quote with center of container */
-    color: black;       /* Sets the text color */
+    left: 50.1%;          /* Centers horizontally */
+    transform: translate(-49.5%, -40%); /* Aligns center of quote with center of container */
+    color: #879e69;       /* Sets the text color */
     text-align: center; /* Centers the text inside the quote box */
-    width: auto;         /* Adjust the width as needed */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 45%;         /* Adjust the width as needed */
+    height: 75%;
+    text-shadow: 2px 2px 4px rgba(96, 130, 132, 0.9);
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5vw;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.5); /* Adjust color and opacity as needed */
+    background-color: rgba(255, 255, 255, 0.65); /* Adjust color and opacity as needed */
     padding: 10px; /* Add some padding around the text */
     border-radius: 8px; /* Optional: rounds the corners */
-    line-height: 1.4; /* Adjust as needed */
+    line-height: 1.1; /* Adjust as needed */
     letter-spacing: 1px;
+    max-width: 45%;
+    max-height: 75%;
 
     /* Additional styling as needed (e.g., font size, font family) */
 }
@@ -120,8 +135,154 @@ blockquote, .custom-quote-cite-right, .custom-quote-cite-left, cite {
     // Add a green line under the active navigation item
     .active {
       border-bottom: 2px solid #879e69; // Green color for the line
+      color: rgb(96, 130, 132); // Text color for active/current link
     }
   }
+  .nav-bar, #nav {
+    background-color: #FFFFFF; // White background
+    a, .menu-link {
+        color: #608284; // Blue-ish color for navigation text
+        &:hover {
+            color: rgb(76, 110, 112); // Text color change on hover
+        }
+        &.active, &.current {
+            border-bottom: 2px solid #879e69; // Green line under active item
+            color: rgb(96, 130, 132); // Text color for active/current link
+        }
+    }
+}
+
+ul > li {
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+}
+
+// .nav-bar {
+//     background-color: #FFFFFF; // White background
+// }
+#nav a {
+    font-size: $base-font-size*0.7; // Adjust the value as per your paragraph font size
+}
+#nav {
+    background-color: rgb(255, 255, 255); /* Sets the background color */
+    background-image: none; /* Removes the background image */
+}
+#nav > ul > li > a {
+    color: rgb(96, 130, 132); /* Replace with the color you want */
+}
+#nav > ul > li.current a {
+    color: #608284; // Blue-ish color
+}
+#nav > ul > li a:hover {
+    color: #608284; // Blue-ish color for hover state
+}
+
+#nav > ul > li.current a, 
+#nav > ul > li.current a:hover {
+    color: #608284; // Blue-ish color for current item and its hover state
+}
+#nav > ul > li {
+    // Hover state for the list item
+    &:hover {
+        a {
+            color: #608284; // Blue-ish color for hover state
+        }
+    }
+
+    // Specific rule for the current item
+    &.current {
+        a {
+            color: #608284; // Blue-ish color for current item
+
+            // Ensure color remains when interacting with dropotron
+            &:hover, &:focus {
+                color: #608284;
+            }
+        }
+    }
+}
+
+.dropotron {
+    background-image: none;
+    background-color: lighten(#879e69, 40%); // Lightens the green color
+    color: #608284; // Blueish color for text
+
+    > li {
+        a {
+            color: #608284; // Blueish color for links
+            text-decoration: none;
+
+            &:hover, &:focus {
+                color: darken(#608284, 10%); // Slightly darker blueish color on hover/focus
+            }
+        }
+    }
+
+    &.level-0 {
+        border-radius: 0 0 _size(radius) _size(radius);
+        font-size: 0.9em;
+        padding-top: 0;
+        margin-top: -1px;
+    }
+}
+
+#nav > ul > li.opener,
+#nav > ul > li.current.opener {
+    > a {
+        color: #608284; // Blue-ish color for the top-level item
+
+        &:hover, &:focus {
+            color: #608284; // Keep the color unchanged
+        }
+    }
+
+    &:hover, &:focus-within {
+        > a {
+            color: #608284; // Keep the color unchanged
+        }
+    }
+}
+.dropotron {
+    background-image: none;
+    background-color: #f3f5f0; // Lightens the green color
+    color: #608284; // Blueish color for text
+
+    > li {
+        a {
+            color: #608284; // Blueish color for links
+            text-decoration: none;
+
+            &:hover, &:focus {
+                color: darken(#608284, 10%); // Slightly darker blueish color on hover/focus
+            }
+        }
+    }
+
+    &.level-0 {
+        border-radius: 0 0 _size(radius) _size(radius);
+        font-size: 0.9em;
+        padding-top: 0;
+        margin-top: -1px;
+    }
+}
+#nav > ul > li.opener,
+#nav > ul > li.current.opener {
+    > a {
+        color: #608284; // Blue-ish color for the top-level item
+
+        &:hover, &:focus {
+            color: #608284; // Keep the color unchanged
+        }
+    }
+
+    &:hover, &:focus-within {
+        > a {
+            color: #608284; // Keep the color unchanged
+        }
+    }
+}
+
+
   // Body text color
 body {
     color: #9a9999; // Body type color
@@ -131,9 +292,6 @@ body {
   h1, h2, h3, h4, h5, h6 {
     color: #474747; // Subhead type color
   }
-.nav-bar {
-    background-color: #FFFFFF; // White background
-}
 .icon.major {
     text-align: center;      /* Keeps text-align as center */
     cursor: default;         /* Keeps cursor as default */
@@ -158,28 +316,6 @@ thead {
 #header {
     background-color: #fff; /* Sets the background color */
     background-image: none; /* Removes the background image */
-}
-#nav {
-    background-color: rgb(255, 255, 255); /* Sets the background color */
-    background-image: none; /* Removes the background image */
-}
-#nav > ul > li > a {
-    color: rgb(96, 130, 132); /* Replace with the color you want */
-}
-#nav > ul > li:hover > a {
-    color: rgb(76, 110, 112); /* Text color change on hover */
-}
-
-#nav > ul > li:current > a {
-    color: rgb(96, 130, 132); /* Text color for the currently selected link */
-}
-
-#nav > ul > li.current a {
-    color: rgb(96, 130, 132); /* Text color for the currently selected link */
-}
-
-#nav > ul > li:active > a {
-    color: rgb(96, 130, 132); /* Color change on active */
 }
 .box.post .image {
     display: block; /* Makes the image a block element */
@@ -435,7 +571,7 @@ section .custom-quote-cite.left-aligned {
 /* Apply negative margin only when viewport is wider than 840px */
 @media (min-width: 841px) {
     .box.highlight {
-        margin-top: -33%; // Apply negative margin only for wider screens
+        margin-top: -50%; // Apply negative margin only for wider screens
 
         // Retain other styles for the highlight images
         img {
@@ -536,3 +672,51 @@ section .custom-quote-cite.left-aligned {
 //         }
 //     }
 // }
+// Adjust the font size for paragraph elements
+// Adjust the font size, line height, and weight for paragraph elements
+// Headings
+h1 {
+    font-size: $base-font-size * 2.0; // Double the size of the paragraph font
+    line-height: $base-line-height;
+    font-weight: 700; // Bold
+}
+#header h1 {
+    padding: 0 0 0 0; // Example padding, adjust as needed
+}
+
+
+h2 {
+    font-size: $base-font-size * 1.75; // Slightly smaller than h1
+    line-height: $base-line-height;
+    font-weight: 700; // Bold
+}
+
+h3 {
+    font-size: $base-font-size * 1.5; // Slightly smaller than h2
+    line-height: $base-line-height;
+    font-weight: 600; // Semi-bold
+}
+
+h4 {
+    font-size: $base-font-size * 1.25; // Slightly smaller than h3
+    line-height: $base-line-height;
+    font-weight: 600; // Semi-bold
+}
+
+h5 {
+    font-size: $base-font-size * 1.1; // Close to the paragraph font size
+    line-height: $base-line-height;
+    font-weight: 500; // Medium
+}
+
+h6 {
+    font-size: $base-font-size; // Same as paragraph
+    line-height: $base-line-height;
+    font-weight: 500; // Medium
+}
+
+p {
+    font-size: $base-font-size; // Adjust the font size as needed
+    line-height: $base-line-height; // Adjust the line height as needed
+    font-weight: 400; // Common values: 300 (light), 400 (normal), 600 (semi-bold), 700 (bold)
+}

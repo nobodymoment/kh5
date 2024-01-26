@@ -1,66 +1,46 @@
-#[[main]]
-#name = "About"
-#url = "/about/"
-#weight = 25
-#identifier = "about"
 [[main]]
-    name = "Counseling Services"
-    url = "/counseling-services/"
-    weight = 30
-    identifier = "counseling"
-[[main]]
-    parent = "counseling"
+    parent = "Counseling Services"
     name = "Couples"
     url = "/counseling-services/couples"
-    weight = 30
+    weight = 31
     identifier = "counseling_couples"
 [[main]]
-    parent = "counseling"
+    parent = "Counseling Services"
     name = "Individuals"
     url = "/counseling-services/individuals"
     weight = 32
     identifier = "counseling_individuals"
 [[main]]
-    parent = "counseling"
+    parent = "Counseling Services"
     name = "Trauma"
     url = "/counseling-services/individuals/#trauma-therapy"
     weight = 33
     identifier = "counseling_trauma"
 [[main]]
-    name = "Cranial Sacral Therapy"
-    url = "/cranio/"
-    weight = 41
-    identifier = "cranio"
-[[main]]
-    parent = "cranio"
+    parent = "Cranial Sacral Therapy"
     name = "People"
     url = "/cranio/#for-people"
     weight = 42
     identifier = "cranio_people"
 [[main]]
-    parent = "cranio"
+    parent = "Cranial Sacral Therapy"
     name = "Animals"
     url = "/cranio/#for-animals"
     weight = 43
     identifier = "cranio_animals"
 [[main]]
-    name = "Pilates"
-    url = "/pilates/"
-    weight = 50
-    identifier = "pilates"
-[[main]]
-    parent = "pilates"
+    parent = "Pilates"
     name = "Workshops"
     url = "/pilates/workshops/"
     weight = 51
     identifier = "workshops"
 [[main]]
-    parent = "pilates"
+    parent = "Pilates"
     name = "Mentoring Groups"
     url = "/pilates/#mentoring-groups"
     weight = 52
 [[main]]
-    parent = "pilates"
+    parent = "Pilates"
     name = "Privates"
     url = "/pilates/#private-lessons"
     weight = 53

@@ -8,6 +8,7 @@ weight: 30
 sidebar_left: counselingsidebarleft
 sidebar_right: counselingsidebarright
 description: ""
+menu: main
 ---
 ### Couples Counseling
 
