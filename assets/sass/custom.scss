@@ -12,18 +12,38 @@ $accent-color: #879e69;  // Example: Replace with your actual accent color varia
 $blueish-color: #608284; // Your blue-ish color
 
 h1 a {
-    color: $accent-color; // Set initial color to green accent color
-  
-    &:hover {
-      color: $blueish-color; // Change color to blue-ish on hover
-    }
+  color: $accent-color; // Set initial color to green accent color
+
+  &:hover {
+    color: $blueish-color; // Change color to blue-ish on hover
   }
-  
+}
+
+article {
+    // Target all links within the article
+    a {
+        color: #9a9999; // Set the color to match the body text color
+
+        &:hover {
+            color: darken(#9a9999, 10%); // Slightly darker color on hover for visual feedback
+        }
+    }
+}
 
 blockquote, .custom-quote-cite-right, .custom-quote-cite-left, cite {
     color: $accent-color;
 }
 
+header.homeblockquote {
+    text-align: center; // Centers the text
+
+    blockquote {
+        font-size: $base-font-size*1.5; // Increases the font size
+        padding-bottom: 2em;
+        line-height: $base-line-height;
+        // You can add more styling here if needed
+    }
+}
 
  .circular {
 /*     width: 220px;      /* Width of the container */
@@ -79,6 +99,7 @@ blockquote, .custom-quote-cite-right, .custom-quote-cite-left, cite {
     height: auto; /* Allows the image height to adjust */
     object-fit: cover; /* Ensures the image covers the container, may crop the image */
     position: relative;
+    border-bottom: 15px solid $accent-color; // Green top border
 }
 
 
@@ -86,7 +107,7 @@ blockquote, .custom-quote-cite-right, .custom-quote-cite-left, cite {
     position: absolute;  /* Positions the quote over the image */
     top: 50%;           /* Centers vertically */
     left: 50.1%;          /* Centers horizontally */
-    transform: translate(-49.5%, -40%); /* Aligns center of quote with center of container */
+    transform: translate(-49.5%, -50.5%); /* Aligns center of quote with center of container */
     color: #879e69;       /* Sets the text color */
     text-align: center; /* Centers the text inside the quote box */
     width: 45%;         /* Adjust the width as needed */
@@ -105,6 +126,28 @@ blockquote, .custom-quote-cite-right, .custom-quote-cite-left, cite {
 
     /* Additional styling as needed (e.g., font size, font family) */
 }
+
+#cta {
+    text-align: center;
+    padding: 3.5em 0;
+
+    header {
+        h2 {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0;
+        }
+
+        .button {
+            vertical-align: middle;
+            margin-left: 1em;
+            color: $blueish-color; /* Blue-ish color */
+            font-size: $base-font-size*1.5; /* Larger text size */
+            /* Retain other existing styles of the button */
+        }
+    }
+}
+
 
 .image.right {
     float: right;
@@ -356,10 +399,32 @@ thead {
 // .button.alt:active {
 //     background-color: darken(#555555, 5);
 // }
+.box.highlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.box.highlight img {
+    max-width: 100%; /* Ensures the image is responsive and fits within the container */
+    height: auto; /* Maintain aspect ratio */
+}
 @include breakpoint('<=narrower') {
     .box.post .image {
         display: block; /* Makes the image a block element */
         margin: 0 auto; /* Centers the image horizontally */
+    }
+    .box.highlight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .box.highlight img {
+        max-width: 100%; /* Ensures the image is responsive and fits within the container */
+        height: auto; /* Maintain aspect ratio */
     }
     
 //     #titleBar {
@@ -387,6 +452,17 @@ thead {
         display: block; /* Makes the image a block element */
         margin: 0 auto; /* Centers the image horizontally */
     }
+    .box.highlight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .box.highlight img {
+        max-width: 100%; /* Ensures the image is responsive and fits within the container */
+        height: auto; /* Maintain aspect ratio */
+    }    
 }
 
 // .dropotron {
@@ -486,6 +562,10 @@ section .custom-quote-cite.left-aligned {
     color: #608284; /* Color for links within the specific section */
 }
 
+// .custom-color-section li a {
+//     font-size: $base-font-size*1.5;
+// }
+
 .custom-color-section .image-caption {
     text-align: center; /* Center align the text */
     color: $accent-color; /* Replace with your accent color */
@@ -510,8 +590,67 @@ section .custom-quote-cite.left-aligned {
     margin-block-end: 0.5em;   /* Adjusted margin */
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 20px; /* Adjusted padding */
+    padding-inline-start: 0px; /* Adjusted padding */
+    font-size: $base-font-size;
 }
+.custom-sublist-style {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0.5em; /* Adjusted margin */
+    margin-block-end: 0.5em;   /* Adjusted margin */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px; /* Adjusted padding */
+    font-size: $base-font-size*0.7;
+}
+
+// .custom-color-section {
+//     // Targeting the unordered list with a custom class
+//     .custom-list-style {
+//         // Targeting the list items
+//         li {
+//             // Targeting the link within the list item
+//             a {
+                
+//                 // Apply your desired styles here
+//                 // Example: Change the text color
+
+//                 // Targeting the bold element within the link
+//                 b {
+//                     // Additional styling specifically for 'Workshops'
+//                     // Example: Change the text color
+//                 font-size: $base-font-size;
+//                 }
+
+//                 }
+//             }
+//         }
+//     }
+    // .custom-list-style {
+    //     // Targeting the second list item for 'Mentoring Groups'
+    //     li:nth-child(2) {
+    //         a {
+    //             // Apply your desired styles for 'Mentoring Groups' here
+    //             // Example: Change the text color
+    //             font-size: $base-font-size;
+    //         }
+    //     }
+    
+    //     // Targeting the third list item for 'Privates'
+    //     li:nth-child(7) {
+    //         a {
+    //             // Apply your desired styles for 'Privates' here
+    //             // Example: Change the text color
+    //             font-size: $base-font-size;
+    
+    //             // Hover effect for the link
+    //             &:hover {
+    //                 color: darken(#608284, 10%); // Slightly darker blue-ish color on hover
+    //             }
+    //         }
+    //     }
+    // }
+    
 
 /* Banner adjustments */
 #banner {
@@ -521,10 +660,18 @@ section .custom-quote-cite.left-aligned {
     height: 28em; // Adjust height as needed
     text-align: center;
     position: relative;
+    border-bottom: 15px solid $accent-color; // Green top border
 
-    header, h2, .button {
-        display: none; // Hides header, h2, and buttons
+    header {
+        background-color: rgba($accent-color, 0.2); // Semi-transparent green background
+        margin-bottom: 60px; // Pulls the header up, adjust the value as needed
+    // Other styling for the header...
     }
+
+    
+    // header, h2, .button {
+    //     display: none; // Hides header, h2, and buttons
+    // }
 }
 
 

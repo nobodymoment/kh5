@@ -6,9 +6,16 @@
                 <section class="col-{{ $item_cols }} col-12-narrower">
                     <div class="box highlight img">
                         <!-- <i class="icon solid major {{ .icon }}"></i> -->
-                        <img src="{{ .image }}" alt="{{ .title }}">
-                        <h3>{{ .title }}</h3>
-                        <p>{{ .content | markdownify }}</p>
+                        <a href="{{ .url }}">
+                            <img src="{{ .image }}" alt="{{ .title }}">
+                        </a>
+                        <a href="{{ .url }}">
+                            <h3>{{ .title }}</h3>
+                        </a>
+                        <p>
+                            {{ .content | markdownify }}
+                            <a href="{{ .url }}">Learn more...</a>
+                        </p>                        
                     </div>
                 </section>
             {{- end }}

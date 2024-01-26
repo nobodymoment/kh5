@@ -36,3 +36,5 @@ Once the nervous system has completed its discharge of the traumatic energy, you
 I work with everyday traumas such as car accidents, falls, surgeries, long term Covid symptoms, sporting accidents to severe or complex traumas including rapes, incest, cancer treatments, fires, war survivors and other horrific events. I will not dive into your trauma and create more disregulation in your system, but rather explore ways to stabilize your experience with present day resources, some somatic exercises to help regulate your nervous system, and help you to become more present. Often with trauma, the body no longer feels like a safe place, which can be accompanied by a feeling of lack of safety in general.
 
 We will gently work through the body to recapture the safety which is inherently yours, but has been obscured due to the traumatic event.
+<!-- 'Back to Top' link at the end of your content -->
+[Back to top](/counseling-services/individuals)
