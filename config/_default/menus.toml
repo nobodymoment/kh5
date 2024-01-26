@@ -44,8 +44,3 @@
     name = "Privates"
     url = "/pilates/#private-lessons"
     weight = 53
-#[[main]]
-#   name = "Contact"
-#    url = "/contact/"
-#    weight = 80
-#    identifier = "contact"

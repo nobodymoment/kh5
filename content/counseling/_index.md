@@ -23,3 +23,6 @@ I work with trauma, anxiety, grief and loss, depression, attachment issues, deve
 ### Trauma Therapy
 
 I work with everyday traumas such as car accidents, falls, surgeries, long term Covid symptoms, sporting accidents to severe or complex traumas including rapes, incest, cancer treatments, fires, war survivors, and other horrific events. I will not dive into your trauma and create more dis-regulation in your system, but rather explore ways to stabilize your experience with present day resources, some somatic exercises to help regulate your nervous system, and help you to become more present. We will gently work through the body to recapture the safety which is inherently yours, but has been obscured due to the traumatic event. [**Read more . . .**](individuals/#trauma-therapy)
+
+<!-- 'Back to Top' link at the end of your content -->
+[Back to top](/counseling-services/)

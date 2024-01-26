@@ -64,3 +64,6 @@ Sessions with individuals may involve cranial sacral and polarity therapy depend
 Together we can explore which is best for you on any given day: a mix of body centered counseling finishing with cranial work, body centered counseling, or a simple cranial session.
 
 I believe in working as a team with you as you actually hold the key to your own healing, I am here to facilitate that with you.
+
+<!-- 'Back to Top' link at the end of your content -->
+[Back to top](/about)

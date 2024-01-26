@@ -60,3 +60,6 @@ We will explore these exercises and try them on for size.  Kathy’s repertoire 
 Mostly, we will be tasting the genius behind this legendary teacher and master, and see how we can incorporate some of these exercises to help clients today.
 
 _(3 hours)_
+
+<!-- 'Back to Top' link at the end of your content -->
+[Back to top](/pilates/workshops)

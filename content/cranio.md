@@ -40,4 +40,5 @@ The following conditions have shown improvement when the animal has received BCS
 
 The owner/primary care-giver must accompany the animal, at least to the first session. We will spend 10-15 minutes discussing the symptoms and settling your pet. We will all sit together on the ground as I work with your pet. Your pet will choose the position that he/she is comfortable with. You may hold your pet as I work if your pet is more comfortable that way. He/she may fall deeply asleep during the session. This general protocol may be modified depending on your pet's needs.
 
----
+<!-- 'Back to Top' link at the end of your content -->
+[Back to top](/cranio/)

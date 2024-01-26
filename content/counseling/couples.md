@@ -27,3 +27,5 @@ Couple therapy is appropriate at all stages of a relationship—not just when yo
  
 I meet each couple with openness and care. Even if the relationship is no longer viable, as is the case when one or both people definitively want out, it is possible to end the relationship with care and love.
 
+<!-- 'Back to Top' link at the end of your content -->
+[Back to top](/counseling-services/couples)
